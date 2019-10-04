@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Circle Regular";
+  src: url("fonts/Circle/Circle-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Circe Extra Light";
+  src: url("fonts/Circle/CRC25.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Circe Light";
+  src: url("fonts/Circle/CRC35.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Circe Extra Bold";
+  src: url("fonts/Circle/CRC75.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Circe Bold";
+  src: url("fonts/Circle/CRC65.otf") format("opentype");
+}

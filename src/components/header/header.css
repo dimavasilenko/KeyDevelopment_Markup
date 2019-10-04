@@ -1,0 +1,130 @@
+header {
+  z-index: 3;
+  position: relative;
+  padding: 39px 0;
+  background-color: #181818;
+  color: #fff;
+}
+
+header .container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  line-height: 0;
+  transition: opacity .3s;
+  text-decoration: none;
+}
+
+.logo:hover {
+  opacity: .6;
+}
+
+.main-menu {
+  list-style: none;
+  margin: 0 0 0 23%;
+  padding: 0;
+}
+
+.main-menu li {
+  margin: 0 40px;
+  display: inline-block;
+}
+
+.main-menu li a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+  transition: opacity .3s;
+}
+
+.main-menu li a:hover {
+  opacity: .6;
+}
+
+.main-menu li a::after {
+  width: 0;
+  bottom: -5px;
+  left: 50%;
+  background: #fff;
+  height: 2px;
+  content: "";
+  display: block;
+  position: absolute;
+  transition: all .3s ease-in-out;
+}
+
+header .header_left-side {
+  display: flex;
+}
+
+.show-menu_toggle {
+  display: inline-block;
+  position: relative;
+  padding-left: 42px;
+  margin-right: 125px;
+  height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  transition: opacity .4s;
+}
+
+.show-menu_toggle:hover {
+  opacity: .6;
+}
+
+.show-menu_toggle::before {
+  left: 0;
+  top: 0;
+  position: absolute;
+  content: '';
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  transform-origin: 50%;
+  transition: transform, .3s, -webkit-transform;
+}
+
+.show-menu_toggle::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  transform-origin: 50%;
+  transition-property: bottom, transform, -webkit-transform;
+  transition: transform, .3s, -webkit-transform;
+}
+
+.header_left-side select {
+  color: #ffffff;
+  background-color: #181818;
+  border: none;
+  outline: none;
+  padding: 5px 5px;
+}
+
+
+.language-border:hover {
+  box-shadow: 0 0 0 1px #ffffff;;
+}
