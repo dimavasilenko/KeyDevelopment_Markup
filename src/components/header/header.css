@@ -2,8 +2,8 @@ header {
   z-index: 3;
   position: relative;
   padding: 39px 0;
-  background-color: #181818;
-  color: #fff;
+  background-color: var(--main-background-color);
+  color: var(--white-color);
 }
 
 header .container {
@@ -12,7 +12,7 @@ header .container {
 }
 
 header a {
-  color: #fff;
+  color: var(--white-color);
 }
 
 .container {
@@ -59,7 +59,7 @@ header a {
   width: 0;
   bottom: -5px;
   left: 50%;
-  background: #fff;
+  background: var(--white-color);
   height: 2px;
   content: "";
   display: block;
@@ -97,7 +97,7 @@ header .header_left-side {
   display: block;
   width: 30px;
   height: 2px;
-  background-color: #fff;
+  background-color: var(--white-color);
   transform-origin: 50%;
   transition: transform, .3s, -webkit-transform;
 }
@@ -110,15 +110,15 @@ header .header_left-side {
   display: block;
   width: 30px;
   height: 2px;
-  background-color: #fff;
+  background-color: var(--white-color);
   transform-origin: 50%;
   transition-property: bottom, transform, -webkit-transform;
   transition: transform, .3s, -webkit-transform;
 }
 
 .header_left-side select {
-  color: #ffffff;
-  background-color: #181818;
+  color: var(--white-color);
+  background-color: var(--main-background-color);
   border: none;
   outline: none;
   padding: 5px 5px;
@@ -126,5 +126,5 @@ header .header_left-side {
 
 
 .language-border:hover {
-  box-shadow: 0 0 0 1px #ffffff;;
+  box-shadow: 0 0 0 1px var(--white-color);
 }

@@ -2,7 +2,7 @@
 @import "components/main_content/main_content.css";
 @import "components/social_media/social_media.css";
 @import "components/footer/footer.css";
-@import "media.css";
+@import "variables.css";
 @import "fonts.css";
 
 * {

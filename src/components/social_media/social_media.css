@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   width: 81px;
-  background-color: #181818;
+  background-color: var(--main-background-color);
 }
 
 .socialMediaMenu {
@@ -25,7 +25,7 @@
 
 .socialMediaMenu__link {
   padding: 5px 20px;
-  color: #ffffff;
+  color: var(--white-color);
   font-size: 14px;
   text-decoration: none;
 }
