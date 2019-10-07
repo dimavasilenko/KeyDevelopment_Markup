@@ -29,16 +29,16 @@
     background-color: var(--white-color) }
 
 .hamburger-box {
-  width: 40px;
+  width: 29px;
   display: inline-block;
   position: relative; }
 
 .hamburger-inner {
   display: block;
   top: 50%;
-  margin-top: -2px; }
+  margin-top: -3px; }
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 40px;
+    width: 29px;
     height: 4px;
     background-color: var(--white-color);
     border-radius: 4px;
@@ -264,7 +264,6 @@
    */
 .hamburger--collapse .hamburger-inner {
   top: auto;
-  bottom: 0;
   transition-duration: 0.13s;
   transition-delay: 0.13s;
   transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
