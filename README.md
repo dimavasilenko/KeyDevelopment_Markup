@@ -1,13 +1,14 @@
-# Project Name
+# KeyDevelopment_Markup
 
 ### [Demo](https://dimavasilenko.github.io/KeyDevelopment_Markup/src/)
 
 ### Description
 
-Tell about your project
+Markup of KeyDevelopment
 
 ### Technologies are used
 
 - HTML
 - CSS
-- ...
+- JS
+- Wow.js
