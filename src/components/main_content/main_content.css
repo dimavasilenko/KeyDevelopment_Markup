@@ -38,6 +38,7 @@
   margin-bottom: 26px;
   color: #ffffff;
   font-size: 24px;
+  font-family: var(--ban_semi-bold);
 }
 
 .slider__mainTitle {
@@ -47,7 +48,7 @@
 .slider__mainTitle span {
   display: block;
   color: #ffffff;
-  font-family: "Circe Extra Bold", serif;
+  font-family: var(--extra-bold);
   font-size: 48px;
   line-height: 60px;
   text-transform: uppercase;
@@ -79,6 +80,7 @@
 .sliderCount__active {
   margin-right: 29px;
   color: var(--white-color);
+  font-family: var(--ban_semi-bold);
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
@@ -87,6 +89,7 @@
 
 .sliderCount__all {
   color: var(--white-color);
+  font-family: var(--ban_semi-bold);
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -108,18 +111,3 @@
   content: "";
 }
 
-
-#slider {
-  width: 25%;
-  height: 50%;
-  display: grid;
-  align-items: center;
-  justify-items: center;
-}
-
-.slogon > div {
-  width: 60%;
-  display: flex;
-  align-items: flex-start;
-  flex-flow: column wrap;
-}

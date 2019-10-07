@@ -15,6 +15,7 @@
 
 .projects__name {
   margin-right: 13%;
+  font-family: var(--ban_semi-bold);
   color: var(--black-color);
   font-size: 14px;
   font-weight: 700;
@@ -24,6 +25,8 @@
 
 .projects__info {
   margin-right: 13%;
+  font-weight: bold;
+  font-family: var(--proxima-nova);
   color: var(--grey-color);
   font-size: 14px;
 }

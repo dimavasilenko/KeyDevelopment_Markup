@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   width: 81px;
+  font-family: var(--main-font);
   background-color: var(--main-background-color);
 }
 

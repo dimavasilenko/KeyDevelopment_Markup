@@ -5,4 +5,9 @@
   --black-color: #070707;
   --grey-color: #868686;
   --background-color-red: #ff0000;
+  --main-font: "Circle Regular", sans-serif;
+  --bold-font: "Circe Bold", sans-serif;
+  --extra-bold: "Circe Extra Bold", sans-serif;
+  --ban_semi-bold: "Banschrift Semi Bold", sans-serif;
+  --proxima-nova: "Proxima Nova", sans-serif;
 }

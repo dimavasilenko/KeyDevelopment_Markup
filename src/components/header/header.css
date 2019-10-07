@@ -44,6 +44,8 @@ header a {
 }
 
 .main-menu li a {
+  font-family: var(--bold-font);
+  font-size: 14px;
   position: relative;
   display: block;
   text-decoration: none;
@@ -73,6 +75,7 @@ header .header_left-side {
 
 .show-menu_toggle {
   display: inline-block;
+  font-family: var(--bold-font);
   position: relative;
   padding-left: 10px;
   margin-right: 125px;
@@ -97,6 +100,9 @@ header .header_left-side {
   padding: 5px 5px;
 }
 
+.language-border{
+  font-family: var(--bold-font);
+}
 
 .language-border:hover {
   box-shadow: 0 0 0 1px var(--white-color);
