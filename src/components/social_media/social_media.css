@@ -1,4 +1,4 @@
-.socialMedia {
+.social-media {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,24 +7,24 @@
   background-color: var(--main-background-color);
 }
 
-.socialMediaMenu {
+.social-media__menu {
   display: flex;
   transform: rotate(90deg);
 }
 
-.socialMediaMenu__item {
+.social-media__item {
   display: flex;
 }
 
-.socialMediaMenu__link:hover{
+.social-media__link:hover{
   opacity: .6;
 }
 
-.socialMediaMenu__link::after{
+.social-media__link::after{
   transition: all .3s ease-in-out;
 }
 
-.socialMediaMenu__link {
+.social-media__link {
   padding: 5px 20px;
   color: var(--white-color);
   font-size: 14px;

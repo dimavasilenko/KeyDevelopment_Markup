@@ -1,7 +1,9 @@
 @import "components/header/header.css";
 @import "components/main_content/main_content.css";
 @import "components/social_media/social_media.css";
-@import "components/footer/footer.css";
+@import "components/projects/projects.css";
+@import "components/slider/slider.css";
+@import "components/sliderItem/sliderItem.css";
 @import "variables.css";
 @import "fonts.css";
 

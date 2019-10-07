@@ -1,0 +1,23 @@
+.slider {
+  width: 100%;
+}
+.slider__title {
+  margin-bottom: 26px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: var(--ban_semi-bold);
+}
+
+.slider__mainTitle {
+  position: relative;
+}
+
+.slider__mainTitle span {
+  display: block;
+  color: #ffffff;
+  font-family: var(--extra-bold);
+  font-size: 48px;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+}
