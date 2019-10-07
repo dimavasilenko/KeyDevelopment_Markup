@@ -74,7 +74,7 @@ header .header_left-side {
 .show-menu_toggle {
   display: inline-block;
   position: relative;
-  padding-left: 42px;
+  padding-left: 10px;
   margin-right: 125px;
   height: 12px;
   box-sizing: border-box;
@@ -87,33 +87,6 @@ header .header_left-side {
 
 .show-menu_toggle:hover {
   opacity: .6;
-}
-
-.show-menu_toggle::before {
-  left: 0;
-  top: 0;
-  position: absolute;
-  content: '';
-  display: block;
-  width: 30px;
-  height: 2px;
-  background-color: var(--white-color);
-  transform-origin: 50%;
-  transition: transform, .3s, -webkit-transform;
-}
-
-.show-menu_toggle::after {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  content: '';
-  display: block;
-  width: 30px;
-  height: 2px;
-  background-color: var(--white-color);
-  transform-origin: 50%;
-  transition-property: bottom, transform, -webkit-transform;
-  transition: transform, .3s, -webkit-transform;
 }
 
 .header_left-side select {

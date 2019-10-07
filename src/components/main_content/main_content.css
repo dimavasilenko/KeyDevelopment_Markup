@@ -107,3 +107,19 @@
   height: 2px;
   content: "";
 }
+
+
+#slider {
+  width: 25%;
+  height: 50%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.slogon > div {
+  width: 60%;
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column wrap;
+}
