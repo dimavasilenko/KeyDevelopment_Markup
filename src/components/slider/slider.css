@@ -12,7 +12,7 @@
   position: relative;
 }
 
-.slider__mainTitle span {
+.slider__mainTitle .mainTitle_span {
   display: block;
   color: #ffffff;
   font-family: var(--extra-bold);
